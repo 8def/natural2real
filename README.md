@@ -26,4 +26,4 @@ When a real number permutation ends in 0 it is skipped.
 
 ...
 
-19 => 0.11 instead of 0.
+19 => 0.11 instead of 0.10
