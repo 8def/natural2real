@@ -1,3 +1,5 @@
+// This is the first bijection described in the readme file
+
 const dict = {};
 let n = 1;
 let digitCount = 1;
