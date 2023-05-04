@@ -3,7 +3,7 @@ function real2Nat(r) {
   // split the real number into a pair
   let p = getPair(r)
   // map the pair to a natural
-  return szudzikPair(p)
+  return szudzikPair(p[0], p[1])
 }
 
 // Create a bijection between ordered pairs and naturals
