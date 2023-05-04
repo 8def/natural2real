@@ -30,6 +30,6 @@ Of course, there is an even easier mapping technique (reversing the digits and r
 
 Mapping Natural Numbers to Real Numbers (enumerating the uncountable)
 
-Building off of this work I extended the technique to all real numbers with a new algorithm. This time real numbers have a whole number component and a fractional component, so I map each to the set of all positive integer pairs. The whole number component maps directly while the fractional component simply has its digits mapped in reverse order. Using the Rosenbloom-Tsfasman pairing function positive real number thus form a bijection with the natural numbers by definition. 
+Building off of this work I extended the technique to positive real numbers with a new algorithm. This time real numbers have a whole number component and a fractional component, so I map each to the set of all positive integer pairs. The whole number component maps directly while the fractional component simply has its digits mapped in reverse order. Using the Rosenbloom-Tsfasman pairing function positive real numbers thus form a bijection with the natural numbers by definition. 
 
 It is my hope to show next that the Rosenbloom-Tsfasman pairing function can then be split into multiple functions that work in parity using the properties of odd and even numbers to map positive real numbers to one half of the Rosenbloom-Tsfasman pairing function's output and the negative real numbers to the other half, thus creating a full bijection between the reals and the naturals.
