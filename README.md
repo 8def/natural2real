@@ -26,8 +26,10 @@ When a real number permutation ends in 0 it is skipped.
 
 Of course, there is an even easier mapping technique (reversing the digits and removing or adding a decimal point). I chose to find this method for a more generalizable technique, which can be used to find the bijection between a set and its power set for example.
 
-------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------
 
 Mapping Natural Numbers to Real Numbers (enumerating the uncountable)
 
-Building off of this work I extended the technique to all real numbers with a new algorithm. This time real numbers have a whole number component and a fractional component, so I map each to the set of all positive integer pairs. The whole number component maps directly while the fractional component simply has its digits mapped in reverse order. Using Szudzik's pairing formula positive real number thus form a bijection with the natural numbers by definition. Szudzik's pairing formula can then be split into multiple formulas that work in parity using the properties of odd and even numbers to map positive real numbers to one half of Cantor's pairing formula's output and the negative real numbers to the other half.
+Building off of this work I extended the technique to all real numbers with a new algorithm. This time real numbers have a whole number component and a fractional component, so I map each to the set of all positive integer pairs. The whole number component maps directly while the fractional component simply has its digits mapped in reverse order. Using the Rosenbloom-Tsfasman pairing function positive real number thus form a bijection with the natural numbers by definition. 
+
+It is my hope to show next that the Rosenbloom-Tsfasman pairing function can then be split into multiple functions that work in parity using the properties of odd and even numbers to map positive real numbers to one half of the Rosenbloom-Tsfasman pairing function's output and the negative real numbers to the other half, thus creating a full bijection between the reals and the naturals.
